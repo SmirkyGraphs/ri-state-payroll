@@ -2,6 +2,10 @@
 
 The goal of this project is to collect quarterly payroll data from [transparency.ri.gov](http://www.transparency.ri.gov/payroll/). The data is cleaned and analyzed using Python to show the difference between the 2 quarters. The programs is a CLI and prints out the final results for desired departments in the prompt.
 
+Once finished the cleaned datasets can be found in `/data/clean/{department}/` showing new hires, pay changes, summary information and terminations.
+
+In addition, the code currently only works for the 2 most recent quarters.
+
 ## Prerequisites
 
 You must have **Python 3** installed.  You can download it
